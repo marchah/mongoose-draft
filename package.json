@@ -1,0 +1,45 @@
+{
+  "name": "mongoose-draft",
+  "version": "0.5.0",
+  "main": "./lib/draft.js",
+  "description": "mongoose draft plugin",
+  "scripts": {
+    "test": "NODE_ENV=test NODE_PATH=./test node ./node_modules/mocha/bin/mocha --harmony "
+  },
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "draft",
+    "model",
+    "schema",
+    "skip",
+    "desactivate",
+    "validation",
+    "skip validation",
+    "desactivate validation"
+  ],
+  "author": "marchah <marchah.dev@gmail.com>",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "lodash": "^4.6.1",
+    "mongoose": "^4.4.10"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.5.3",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=4.1.0",
+    "iojs": ">= 2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marchah/mongoose-draft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marchah/mongoose-draft/issues"
+  },
+  "homepage": "https://github.com/marchah/mongoose-draft",
+  "license": "Apache-2.0"
+}
