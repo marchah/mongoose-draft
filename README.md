@@ -1,2 +1,2 @@
 # mongoose-draft
-Mongoose plugin draft to skip the model validation
+Mongoose draft plugin to skip the model validation
