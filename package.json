@@ -13,10 +13,10 @@
     "model",
     "schema",
     "skip",
-    "desactivate",
+    "disable",
     "validation",
     "skip validation",
-    "desactivate validation"
+    "disable validation"
   ],
   "author": "marchah <marchah.dev@gmail.com>",
   "dependencies": {
