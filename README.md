@@ -1,5 +1,5 @@
 # mongoose-draft
-Mongoose draft plugin to desactivate the model validation
+Mongoose draft plugin to disable the model validation
 
 ## Documentation
 
