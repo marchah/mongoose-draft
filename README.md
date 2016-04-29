@@ -1,6 +1,14 @@
 # mongoose-draft
 Mongoose draft plugin to disable the model validation
 
+## Installation
+
+Install via [npm](https://www.npmjs.com/):
+
+```
+$ npm install mongoose-draft
+```
+
 ## Documentation
 
 ### Options
