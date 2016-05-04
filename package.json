@@ -20,14 +20,14 @@
   ],
   "author": "marchah <marchah.dev@gmail.com>",
   "dependencies": {
-    "bluebird": "^3.3.4",
-    "lodash": "^4.6.1",
-    "mongoose": "^4.4.10"
+    "lodash": "^4.11.2"
   },
   "devDependencies": {
+    "bluebird": "^3.3.5",
     "chai": "^3.5.0",
-    "eslint": "^2.5.3",
-    "mocha": "^2.4.5"
+    "eslint": "^2.9.0",
+    "mocha": "^2.4.5",
+    "mongoose": "^4.4.14"
   },
   "engines": {
     "node": ">=4.1.0",
