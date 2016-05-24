@@ -49,17 +49,17 @@ TestSchema.plugin(draft, { isDraft: true });
 
 var TestDraft = mongoose.model('Test_draft', TestSchema);
 
-var model = new TestDraft()
+var doc = new TestDraft()
 
-model.validate(); // -> return a promise fulfilled without any validation errors
-model.isDraft = false;
-model.validate(); // -> return a promise fulfilled with validation errors
+doc.validate(); // -> return a promise fulfilled without any validation errors
+doc.isDraft = false;
+doc.validate(); // -> return a promise fulfilled with validation errors
 
 model.setIsDraft(true);
 
-model.save(); // -> return a promise fulfilled with the model instance
-model.setIsDraft(false);
-model.save(); // -> return a promise fulfilled with validation errors
+doc.save(); // -> return a promise fulfilled with doc
+doc.setIsDraft(false);
+doc.save(); // -> return a promise fulfilled with validation errors
 ````
 
 ## Contributing
