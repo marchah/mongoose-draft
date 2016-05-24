@@ -55,7 +55,7 @@ doc.validate(); // -> return a promise fulfilled without any validation errors
 doc.isDraft = false;
 doc.validate(); // -> return a promise fulfilled with validation errors
 
-model.setIsDraft(true);
+doc.setIsDraft(true);
 
 doc.save(); // -> return a promise fulfilled with doc
 doc.setIsDraft(false);
